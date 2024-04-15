@@ -2,7 +2,7 @@
 *{
     outline: solid black;
 }
-/*
+*/
 body{ /* seleccion de body*/
 font-family: Arial, sans-serif; /* cambia tipo grafia*/
 margin: 0; /* elimina todo el margen predefinido/*
@@ -33,3 +33,29 @@ nav ul a{
     color: #fff; /* color a elemento anchor*/
     text-decoration: none; /* quita subrayado de enlace*/
 }
+section{
+    padding: 40px 0; /* añade relleno superior e inferior   */
+}
+#banner{
+    background-image: url('https://via.placeholder.com/1500x500');/*establece la imagen de fondo del banner*/
+    background-size: cover; /* ajusta la imagen al area del banner*/
+    color:#fff; /* establece el color del texto*/
+    text-align: center; /*centra el texto del banner*/
+    padding: 100px 0; /*añade relleno superior e inferior*/
+}
+#banner h2{
+    font-size: 36px;/* establece tamaño de text*/
+}
+#banner p{
+    font-size: 10px; /* establece tamaño der p*/
+    margin-bottom: 20px;/* define margen inferior*/
+}
+.btn{
+    background-color: #007bff;
+    color:#fff; /* color del texto del boton*/
+    padding:10px 20px; /*relleno del boton/*
+    text-decoration: none;/* quita decorasion del enlace */
+{
+    /* cuando pasa mause sobre el boton*/
+    .btn:hover
+    background-color:0056b3;
