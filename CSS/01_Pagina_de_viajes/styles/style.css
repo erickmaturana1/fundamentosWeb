@@ -50,12 +50,24 @@ section{
     font-size: 10px; /* establece tamaño der p*/
     margin-bottom: 20px;/* define margen inferior*/
 }
-.btn{
+.btn {
     background-color: #007bff;
     color:#fff; /* color del texto del boton*/
     padding:10px 20px; /*relleno del boton/*
     text-decoration: none;/* quita decorasion del enlace */
-{
-    /* cuando pasa mause sobre el boton*/
-    .btn:hover
-    background-color:0056b3;
+}
+/* cuando pasa mause sobre el boton*/
+    .btn:hover{
+        background-color:0056b3;
+    }
+
+
+
+
+    
+    footer{
+        background-color: #333;/* cambia color de footer*/
+        color: #fff;/* color de texto de footer*/
+        text-align: center;/* centra el texto*/
+        padding:  20px 0%;/* añade relleno superior e inferior*/
+    }
