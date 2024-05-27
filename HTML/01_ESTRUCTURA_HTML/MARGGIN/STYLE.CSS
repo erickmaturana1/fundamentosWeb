@@ -1,0 +1,36 @@
+#banner{
+        background-color: black;
+        margin: 20px;
+        color: aliceblue;
+        font-size: 30px;
+        font-family: cursive;
+}
+h2{
+    margin-left: 20px;
+    padding: 1%;
+}
+h2 span{
+    color: aqua;
+}
+#project{
+        background-color: #663399;
+        margin: 20px;
+        color: aliceblue;
+        font-size: 23px;
+        font-family: ;
+        text-align: center;
+}
+#contact{
+    background-color: #9fc5f8;
+    margin: 20px;
+    color: #202257;
+    font-size: 20px;
+    font-family:cursive ;
+    text-align: right;
+}
+#contact h3{
+        margin:15px;
+}
+    
+
+
