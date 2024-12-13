@@ -1,0 +1,242 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1e4d8; /* Fondo claro similar a la imagen */
+  color: #502314; /* Tonos marrón suave */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F5EBDC ; /* Fondo claro */
+  padding: 1px 1px;
+  box-shadow: 0 px px rgba(0, 0, 0, 0.1);
+  position: sticky;
+}
+.colorantes{
+  margin-left: 30px;
+}
+
+
+.navbar .logo img {
+  width: 60px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.menu li {
+  margin: 0 15px;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #502314; /* Marrón suave */
+  font-weight: bold;
+
+}
+
+/* Novedades Section */
+.novedades {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.novedad {
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.novedad:hover {
+  transform: scale(1.03);
+}
+
+.novedad img {
+  width: 100%;
+  height: auto;
+}
+
+.novedad h2 {
+  font-size: 1.8rem;
+  color: #3c2d1d; /* Marrón para los títulos */
+  margin: 15px 0;
+}
+
+.novedad p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 15px 15px 15px;
+  color: #5a4634; /* Tonalidad ligeramente más clara */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #e9dab6; /* Fondo similar a la cabecera */
+  color: #795129;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+}
+.color{
+  font-size: 50px;
+}
+/*SEGUNDA PARTE 
+
+/* Segunda sección - Novedades */
+.novedades-segunda {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.novedades-segunda .novedad {
+  background: #f1e4d8
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.novedades-segunda .novedad:hover {
+  transform: scale(1.03);
+}
+
+.novedades-segunda .novedad img {
+  width: 100%;
+  height: auto;
+}
+
+.novedades-segunda .novedad h2 {
+  font-size: 1.8rem;
+  color: #3c2d1d; /* Marrón oscuro */
+  margin: 15px 0;
+}
+
+.novedades-segunda .novedad p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 15px 15px 15px;
+  color: #5a4634; /* Marrón más claro */
+}
+/*tercera parte
+/* Footer General */
+.footer {
+  background-color: #4A2D21; /* Marrón oscuro */
+  color: #ffffff; /* Blanco */
+  padding: 30px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Logo del footer */
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF; /* Blanco */
+  margin-bottom: 20px;
+}
+
+/* Columnas de enlaces */
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF; /* Blanco */
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #FFFFFF; /* Blanco */
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #FFD700; /* Dorado */
+}
+
+/* Sección inferior */
+.footer-bottom {
+  border-top: 1px solid #FFFFFF; /* Línea blanca */
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #FFFFFF; /* Blanco */
+}
+
+/* Iconos de redes sociales */
+.footer-social a {
+  margin-left: 15px;
+}
+
+.footer-social img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1); /* Hace los iconos blancos */
+  transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.2); /* Efecto zoom */
+}
