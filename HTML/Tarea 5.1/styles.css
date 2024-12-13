@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+}
+.contenedor-padre{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px;
+}
+.imagen{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.contenedor-hijo{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px;
+}
+.imagenes{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contenedor-tercero{
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 20px;
+}
+
+.spiderman{
+    height: 200px;
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
